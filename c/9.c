@@ -7,6 +7,27 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int num;
 
+    
+    while(1)
+    {
+        scanf("%d",&num);
+
+        if(num>0)
+        {
+            int total=0;
+            for(int i=1;i<=num;i++)
+            {
+                total+=i;
+            }
+            printf("%d",total);
+            break;
+        }
+        else
+        {
+            printf("X\n");
+        }
+    }
     return 0;
 }

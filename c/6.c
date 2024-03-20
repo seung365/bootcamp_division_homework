@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    char alpha;
+    scanf("%c",&alpha);
+    if(alpha=='a'|alpha=='e'|alpha=='i'|alpha=='o'|alpha=='u')\
+    {
+        printf("O");
+    }
+    else
+    {
+        printf("X");
+    }
     return 0;
 }

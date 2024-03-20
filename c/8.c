@@ -7,6 +7,33 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int num;
+
+    int plus=0;
+    int multi=1;
+
+    scanf("%d",&num);
+
+    if(num==0)
+    {
+        printf("0\n");
+        printf("1");
+    }
+    else
+    {
+
+        for(int i=1; i<=num;i++)
+        {
+            plus+=i;
+        }
+        for(int i=1;i<=num;i++)
+        {
+            multi=multi*i;
+        }
+        printf("%d\n",plus);
+        printf("%d",multi);
+   
+    }
 
     return 0;
 }
