@@ -8,5 +8,25 @@
 int main() {
     // 이곳에 코드를 작성해주세요!
 
+    int times;
+
+    scanf("%d",&times);
+
+    if(times<12)
+    {
+        printf("AM");
+    }
+    else
+    {
+        printf("PM");
+    }
+
+
+
+
+
+
+
+
     return 0;
 }
