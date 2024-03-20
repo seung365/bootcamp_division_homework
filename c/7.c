@@ -18,16 +18,9 @@ int main() {
     }
     else if(month==2)
     {
-        if(years%4==0 && years%100!=0)
+        if(years%4==0 && years%100!=0 | years%400==0)
         {
-            if(years%400==0)
-            {
-                printf("29");
-            }
-            else
-            {
-                printf("28");
-            }
+            printf("29");   
         }
         else
         {
